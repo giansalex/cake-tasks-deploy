@@ -1,0 +1,1 @@
+deploy_version.txt = (?<version>\d+\.\d+\.\d+)

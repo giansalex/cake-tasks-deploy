@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>giansalex.apptest</id>
+        <version>1.0.4</version>
+        <title>GS App Test</title>
+        <authors>Giansalex</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Squirrel App Test</description>
+        <summary />
+        <language>es-PE</language>
+    </metadata>
+    <files>
+        <file src="bin\Release\CustomLibrary.dll" target="lib\net45\CustomLibrary.dll" />
+        <file src="bin\Release\DeltaCompressionDotNet.dll" target="lib\net45\DeltaCompressionDotNet.dll" />
+        <file src="bin\Release\DeltaCompressionDotNet.MsDelta.dll" target="lib\net45\DeltaCompressionDotNet.MsDelta.dll" />
+        <file src="bin\Release\DeltaCompressionDotNet.PatchApi.dll" target="lib\net45\DeltaCompressionDotNet.PatchApi.dll" />
+        <file src="bin\Release\Mono.Cecil.dll" target="lib\net45\Mono.Cecil.dll" />
+        <file src="bin\Release\Mono.Cecil.Mdb.dll" target="lib\net45\Mono.Cecil.Mdb.dll" />
+        <file src="bin\Release\Mono.Cecil.Pdb.dll" target="lib\net45\Mono.Cecil.Pdb.dll" />
+        <file src="bin\Release\Mono.Cecil.Rocks.dll" target="lib\net45\Mono.Cecil.Rocks.dll" />
+        <file src="bin\Release\Newtonsoft.Json.dll" target="lib\net45\Newtonsoft.Json.dll" />
+        <file src="bin\Release\NuGet.Squirrel.dll" target="lib\net45\NuGet.Squirrel.dll" />
+        <file src="bin\Release\SharpCompress.dll" target="lib\net45\SharpCompress.dll" />
+        <file src="bin\Release\Splat.dll" target="lib\net45\Splat.dll" />
+        <file src="bin\Release\Squirrel.dll" target="lib\net45\Squirrel.dll" />
+        <file src="bin\Release\SquirrelApp.exe" target="lib\net45\SquirrelApp.exe" />
+        <file src="bin\Release\SquirrelApp.exe.config" target="lib\net45\SquirrelApp.exe.config" />
+    </files>
+</package>

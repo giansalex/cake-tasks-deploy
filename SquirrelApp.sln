@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquirrelApp", "SquirrelApp\SquirrelApp.csproj", "{18B519E0-CCCE-4B18-B51E-B6962D363943}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLibrary", "CustomLibrary\CustomLibrary.csproj", "{9D04BB6C-8122-4698-8AA2-F97D34ECED4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLibrary.Tests", "CustomLibrary.Tests\CustomLibrary.Tests.csproj", "{0093EBAA-AB10-4AE7-A815-07DFBDC4623B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{18B519E0-CCCE-4B18-B51E-B6962D363943}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18B519E0-CCCE-4B18-B51E-B6962D363943}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18B519E0-CCCE-4B18-B51E-B6962D363943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D04BB6C-8122-4698-8AA2-F97D34ECED4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D04BB6C-8122-4698-8AA2-F97D34ECED4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D04BB6C-8122-4698-8AA2-F97D34ECED4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D04BB6C-8122-4698-8AA2-F97D34ECED4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0093EBAA-AB10-4AE7-A815-07DFBDC4623B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0093EBAA-AB10-4AE7-A815-07DFBDC4623B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0093EBAA-AB10-4AE7-A815-07DFBDC4623B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0093EBAA-AB10-4AE7-A815-07DFBDC4623B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

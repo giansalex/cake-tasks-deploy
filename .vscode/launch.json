@@ -1,0 +1,23 @@
+{
+  // Utilizar IntelliSense para aprender acerca de los posibles atributos.
+  // Mantenga el puntero para ver las descripciones de los existentes atributos 
+  // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "Cake: Debug Script (CoreCLR)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceRoot}/tools/Cake.CoreCLR/Cake.dll",
+      "args": [
+        "${workspaceRoot}/build.cake",
+        "--debug",
+        "--verbosity=diagnostic"
+      ],
+      "cwd": "${workspaceRoot}",
+      "stopAtEntry": true,
+      "externalConsole": false
+    }
+  ]
+}
