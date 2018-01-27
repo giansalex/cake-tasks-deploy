@@ -1,0 +1,7 @@
+configuration: Release
+
+before_build:
+  - ps: .\build.ps1
+
+build:
+  verbosity: minimal
